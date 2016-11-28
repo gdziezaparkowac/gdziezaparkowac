@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  table
+    tr
+      th Parking
+      th Wolnych
+      th Wjeżdżających
+      th Wyjeżdżających
+      th Czas     
+    each p in parkings           
+      tr
+        td #{p[4]}
+        td #{p[1]}
+        td #{p[2]}
+        td #{p[3]}     
+        td #{p[0]}     
+  
