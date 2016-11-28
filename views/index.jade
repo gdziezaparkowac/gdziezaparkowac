@@ -1,5 +1,9 @@
 extends layout
-
+// 0 - Czas rejestracji
+// 1 - Liczba wolnych miejsc
+// 2 - Liczba Poj wjezdzajacych
+// 3 - Liczba Poj wyjezdzajacych
+// 4 - Nazwa
 block content
   h1= title
   table
@@ -8,12 +12,11 @@ block content
       th Wolnych
       th Wjeżdżających
       th Wyjeżdżających
-      th Czas     
-    each p in parkings           
+      th Czas
+    each p in parkings
       tr
         td #{p[4]}
         td #{p[1]}
         td #{p[2]}
-        td #{p[3]}     
-        td #{p[0]}     
-  
+        td #{p[3]}
+        td #{p[0]}
