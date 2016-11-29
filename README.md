@@ -14,10 +14,12 @@ Install dev dependencies:
 ```
 npm install
 ```
-Start the server
+Start the server:
 ```
 npm start
 ```
+Load http://localhost:3000/ in your browser to access the app.
+
 Start coding!
 
 
