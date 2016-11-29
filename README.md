@@ -1,5 +1,6 @@
 # gdziezaparkowac
-gdziezaparkowac is a website where you can find information about parking spaces
+gdziezaparkowac is a website where you can find information about parking spaces.
+Data comes from: http://www.wroclaw.pl/open-data/index.php/zbiory-danych/17-transport/124-zapelnienie-parkingow
 
 ## Contribution
 ```
